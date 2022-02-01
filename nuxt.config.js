@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'mitochon-nuxt-template',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
@@ -17,15 +17,23 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  // The srcDir property: https://nuxtjs.org/docs/configuration-glossary/configuration-srcdir/
+  srcDir: 'src/',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['src/assets/css/reset.css', 'src/assets/scss/common.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
+  components: [
+    {
+      path: 'src/components/',
+      pathPrefix: false,
+      extensions: ['vue'],
+    },
+  ],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
