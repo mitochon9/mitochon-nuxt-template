@@ -4,13 +4,13 @@
 
 <style lang="scss" scoped>
 .hero {
-  width: 100vw;
-  background-color: pink;
-  height: 400px;
   display: flex;
-  justify-content: center;
-  color: gray;
   align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 400px;
   font-size: 2rem;
+  color: gray;
+  background-color: pink;
 }
 </style>
