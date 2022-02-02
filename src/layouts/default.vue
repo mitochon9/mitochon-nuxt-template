@@ -7,13 +7,13 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import HeaderLayout from './header.vue'
-import FooterLayout from './footer.vue'
+import Vue from "vue";
+import HeaderLayout from "./header.vue";
+import FooterLayout from "./footer.vue";
 export default Vue.extend({
-  name: 'DefaultLayout',
+  name: "DefaultLayout",
   components: { HeaderLayout, FooterLayout },
-})
+});
 </script>
 
 <style lang="scss" scoped>
