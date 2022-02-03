@@ -42,6 +42,8 @@ export default {
     "@nuxtjs/stylelint-module",
 
     "@nuxtjs/eslint-module",
+
+    "@nuxt/postcss8",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
