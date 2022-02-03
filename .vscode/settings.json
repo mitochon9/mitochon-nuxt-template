@@ -1,0 +1,12 @@
+{
+  "cSpell.words": ["lintfix", "mitochon", "nuxt", "nuxtjs", "stylelint"],
+  "stylelint.validate": ["vue", "css", "scss"],
+  "css.validate": false,
+  "scss.validate": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
