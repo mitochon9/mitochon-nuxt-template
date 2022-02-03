@@ -18,10 +18,10 @@ export default {
   },
 
   // The srcDir property: https://nuxtjs.org/docs/configuration-glossary/configuration-srcdir/
-  srcDir: "src/",
+  // srcDir: "src/",
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["src/assets/css/reset.css", "src/assets/scss/common.scss"],
+  css: ["~/assets/css/reset.css", "~/assets/scss/common.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -29,7 +29,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
     {
-      path: "src/components/",
+      path: "~/components",
       pathPrefix: false,
       extensions: ["vue"],
     },
